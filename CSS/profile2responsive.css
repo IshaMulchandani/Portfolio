@@ -1,0 +1,234 @@
+/* Large screen */
+@media screen and (min-width:1500px){
+    nav ul{
+        font-size: 1.5rem;
+    }
+    .prof{
+        width: 28%;
+    }
+    .prof h1{
+        font-size: 2rem;
+    }
+    nav button{
+        height: 50px;
+        width: 160px;
+        font-size: 2.8vh;
+    }
+    .sec1 h1{
+        font-size: 3.4rem;
+    }
+    .sec1 h3{
+        font: 3rem;
+    }
+    #bgimg1{
+        height: 30vh;
+        width: 18vw;
+        position: absolute;
+        top: 420px;
+    }
+    #bgimg2{
+        height: 20vh;
+        width: 20vw;
+        top: 90px;
+    }
+    .sec2{
+        position: absolute;
+        top: 700px;
+    }
+    .abt h2{
+        font-size: 2.6rem;
+    }
+    .abt p{
+        font-size: 1.4rem;
+    }
+    .sec3 h4{
+        font-size: 1.8rem;
+    }
+    .sec3 h1{
+        font-size: 3rem;
+    }
+    .sec3{
+        position: absolute;
+        top: 1830px;
+        height: 1200px;
+    }
+    .momtext h2{
+        font-size: 1.9rem;
+    }
+    .momtext p{
+        font-size: 1.3rem;
+    }
+    .temptext h2{
+        font-size: 1.9rem;
+    }
+    .temptext p{
+        font-size: 1.3rem;
+    }
+    form input{
+        width: 56vh;
+        height: 6vh;
+        font-size: 1.3rem;
+    }
+    form textarea{
+        font-size: 1.3rem;
+        width: 55vh;
+    }
+    .sec4{
+        height: 640px;
+        position: absolute;
+        top:3030px;
+        width: 100%;
+    }
+    form button{
+        height: 60px;
+        width: 180px;
+        font-size: 1.3rem;
+    }
+    .sec5{
+        font-size: 1.3rem;
+        position: absolute;
+        top: 3670px;
+        width: 100%;
+    }
+    .sec5 button{
+        height: 60px;
+        width: 180px;
+        font-size: 1.1rem;
+    }
+    nav{
+        position: sticky;
+        top: 0px;
+    }
+}
+/* Medium screen */
+@media screen and (min-width:960px) and (max-width:1109px){
+    .prof{
+        width: 30%;
+    }
+    nav ul{
+        font-size: 0.9rem;
+    }
+    .prof h1{
+        font-size: 1.5rem;
+    }
+    nav button{
+        height: 8vh;
+        font-size: 1rem;
+    }
+    .sec1 h1{
+        font-size: 2.2rem;
+    }
+    .sec1 h3{
+        font-size: 0.9rem;
+    }
+    #bgimg1{
+        width: 20vw;
+        height: 20vh;
+        position: absolute;
+        top: 500px;
+    }
+    #bgimg2{
+        width: 24vw;
+        height: 20vh;
+    }
+    .sec2{
+    position: absolute;
+    top: 2000px;
+    position: absolute;
+    top: 300px;
+    }
+    .sec2 h2{
+        font-size: 1.5rem;
+    }
+    .sec2 p{
+        font-size: 0.9rem;
+    }
+    .sec3{
+        position: absolute;
+        top: 1450px;
+        height: 800px;
+    }
+    .sec4{
+        position: absolute;
+        top: 2250px;
+        width: 100%;
+    }
+    .sec4 h2{
+        font-size: 2rem;
+    }
+    form input{
+        width: 40vh;
+    }
+    textarea{
+        width: 40vh;
+    }
+    .sec5{
+        font-size: 0.8rem;
+        position: absolute;
+        top:2770px;
+        width: 100%;
+    }
+}
+/* Small screen */
+@media screen and (min-width:750px) and (max-width:959px){
+    nav button{
+        height: 30px;
+        width: 100px;
+    }
+    nav ul li{
+        margin: 10px;
+    }
+    nav{
+        width: 100%;
+    }
+    .prof{
+        width: 40%;
+    }
+    nav button{
+        height: 30px;
+        width: 80px;
+        font-size: 1vh;
+        margin-left: 25px;
+    }
+    .sec1 h1{
+        font-size: 2rem;
+        text-align: center;
+        /* position:        ; */
+    }
+    .sec1 h3{
+        font-size: 0.9rem;
+        /* position: relative;
+        right: 20px; */
+    }
+    #bgimg1{
+        width: 20vw;
+        height:  15vh;
+        position: absolute;
+        top: 500px;
+    }
+    #bgimg2{
+        width: 20vh;
+        height: 15vh;
+        position: relative;
+        left: 570px;
+    }
+    .sec2{
+        position: absolute;
+        top: 700px;
+    }
+    .sec3{
+        position: absolute;
+        top: 1260px;
+        height: 600px;
+    }
+    .sec4{
+        position: absolute;
+        top: 1860px;
+        width: 100%;
+    }
+    .sec5{
+        position: absolute;
+        top: 2380px;
+        width: 100%;
+    }
+}
